@@ -1,0 +1,145 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+  -webkit-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+  background: #fff;
+  color: #4d4d4d;
+  min-width: 230px;
+  max-width: 550px;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 300;
+}
+
+.contain_box{
+  height: 600px;
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  bottom: 50%;
+  margin-left: -250px;
+  margin-top: -300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.inner_contain{
+  height: calc(100% - 20px);
+  width: calc(100% - 20px);
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.contain_title {
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(23, 55, 233, 0.829) ;
+  text-align: center;
+  border-bottom: 1px dotted #ccc;
+}
+.contain_count {
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted #ccc;
+}
+.count_left {
+  display: inline-block;
+  width: 235px;
+  padding-left: 5px;
+}
+.count_top {
+  height: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  color: rgba(69, 91, 216, 0.829);
+  margin-bottom: 5px;
+}
+.count_bottom {
+  height: 22px;
+  line-height: 22px;
+  font-size: 16px;
+}
+.contain_list {
+  height: 380px;
+  padding: 20px;
+  overflow-y: auto;
+}
+.item_contain{
+  height: 55px;
+  display: flex;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 10px 10px 10px 0;
+  border: 1px solid #ccc;
+}
+.apple_img {
+  width: 55px;
+  display: inline-block;
+}
+.apple_content{
+  height: 55px;
+  flex: 1;
+  display: inline-block;
+  margin: 0 10px;
+}
+.apple_content_top {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: rgba(23, 55, 233, 0.829);
+}
+.apple_content_bottom {
+    height: 20px;
+    line-height: 20px;
+}
+.apple_right {
+  width: 60px;
+  padding-top: 10px;
+}
+.apple_btn {
+  height: 35px;
+  width: 60px;
+  color: #fff;
+  border-radius: 3px;
+  background-color:rgb(64, 123, 231);
+}
+.contain_footer{
+  height: 40px;
+  width: 100%;
+  text-align: center;
+}
+.contain_footer_button {
+  height: 30px;
+  width: 60px;
+  color: #fff;
+  border-radius: 3px;
+  background-color:rgb(14, 109, 88);
+}
